@@ -1,7 +1,7 @@
 # SlidingPuzzleQLearner
 
 ## Objective:
-The objective of this project is to implement a reinforcement learning strategy using Q-Learning to solve 3x3 sliding tile puzzles. The 3x3 sliding tile puzzle is a classic problem where a player must rearrange tiles in a 3x3 grid by sliding them into the empty space until the tiles are ordered sequentially from 1 to 8 (or from 1 to 9 if including an empty space).
+The objective of this project is to implement a reinforcement learning strategy using Q-Learning to solve 3x3 sliding tile puzzles. The 3x3 sliding tile puzzle is a classic problem where a player must rearrange tiles in a 3x3 grid by sliding them into the empty space until the tiles are ordered sequentially from from 1 to 9.
 
 ## Overview:
 The project involves developing an agent that learns to solve the sliding tile puzzle through trial and error. The agent will interact with the environment by making moves (up, down, left, or right) to rearrange the tiles. It will learn a policy by updating Q-values based on the rewards obtained from its actions and the resulting states.
@@ -29,6 +29,7 @@ The implementation will involve the following steps:
 ## Dependencies:
 - Python 3.x
 - numpy
+- PyGame
 
 ## Usage:
 1. Clone the repository:
