@@ -1,20 +1,20 @@
 ## TODO:
 
-Change the way it represents a solved state
+###Change the way it represents a solved state:
 
-By poor design choice we represent it as:
+####By poor design choice we represent it as:
 
-[1,2,0]
-[3,4,5]
-[6,7,8] 
+`[1,2,0]`
+`[3,4,5]`
+`[6,7,8] `
 
-where 0 is the empty tile but that is hella confusing. I suggest representing it as:
+####where 0 is the empty tile but that is hella confusing. I suggest representing it as:
 
-[1,2,3]
-[4,5,6]
-[7,8,0]
+`[1,2,3]`
+`[4,5,6]`
+`[7,8,0]`
 
-But any other implementations are welcome.
+#### But any other implementations are welcome.
 
 # SlidingPuzzleQLearner
 
