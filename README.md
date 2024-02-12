@@ -1,3 +1,21 @@
+## TODO:
+
+Change the way it represents a solved state
+
+By poor design choice we represent it as:
+
+[1,2,0]
+[3,4,5]
+[6,7,8] 
+
+where 0 is the empty tile but that is hella confusing. I suggest representing it as:
+
+[1,2,3]
+[4,5,6]
+[7,8,0]
+
+But any other implementations are welcome.
+
 # SlidingPuzzleQLearner
 
 ## Objective:
@@ -34,7 +52,7 @@ The implementation will involve the following steps:
 ## Usage:
 1. Clone the repository:
 
-  git clone https://github.com/your_username/SlidingPuzzleQLearner.git
+     git clone https://github.com/your_username/SlidingPuzzleQLearner.git
 
 2. Navigate to the project directory:
 
